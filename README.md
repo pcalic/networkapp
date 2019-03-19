@@ -9,8 +9,13 @@ Installation
 5. App is running now on localhost:8080
 
 Api:
+	
 	localhost:8080/product/productForUser/{userId} - To get one active product for user
+	
 	localhost:8080/product/productsForAllUsers - To get all products for all users
+	
 	localhost:8080/payment/addPayment/ - To add payment on product for user. Parameters (int userId, float price)
+	
 	localhost:8080/payment/editPayment/ - To edit payment on product for user Parameters (int userId, int paymentId, float price)
+	
 	localhost:8080/payment/deletePayment/ - To delete payment on product for user Parameters (int userId, int paymentId)
